@@ -1,12 +1,13 @@
 extends CharacterBody2D
 
 @export_category("Enemy Properties") 
-@export var move_speed : float = 50
+@export var move_speed : float = 100
 @export var gravity : float = 30
 @export var damage : int = 2
 @export var health : int = 3
 var jump_count : int = 2
 @onready var player = get_node("/root/Main/Player")
+@onready var sprite = $Enemy1Walk
 @onready var ap = $EAnimationPlayer
 
 var allowed_move = true
@@ -16,6 +17,7 @@ func _physics_process(delta):
 	var direction
 	if allowed_move:
 		direction = global_position.direction_to(player.global_position)
+		flip_player()
 	else:
 		direction = Vector2(0,0)
 	if !is_on_floor():
@@ -41,6 +43,12 @@ func take_damage(_damage):
 		else:
 			ap.play("take_damage")
 	
+
+func flip_player():
+	if velocity.x < 0: 
+		sprite.flip_h = true
+	elif velocity.x > 0:
+		sprite.flip_h = false
 
 func _on_area_2d_body_entered(body):
 	pass
