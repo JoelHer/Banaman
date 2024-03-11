@@ -178,7 +178,7 @@ _data = {
 [node name="CharacterBody2D" type="CharacterBody2D"]
 script = ExtResource("1_dkyqr")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 position = Vector2(-19, -3)
 shape = SubResource("RectangleShape2D_8olgs")
 
@@ -197,3 +197,9 @@ libraries = {
 
 [node name="Area2D" parent="." instance=ExtResource("4_77pur")]
 position = Vector2(-18, -6)
+
+[node name="Damager" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Damager"]
+position = Vector2(-19, -3)
+shape = SubResource("RectangleShape2D_8olgs")

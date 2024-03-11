@@ -1,3 +1,4 @@
+Area2D
 AnimationPlayer
 TextureRect
 NinePatchRect
@@ -10,5 +11,4 @@ ParallaxBackground
 Camera2D
 TileMap
 CollisionShape2D
-Area2D
 CharacterBody2D
