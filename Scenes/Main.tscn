@@ -160,7 +160,7 @@ scale = Vector2(6.96, 6.96)
 transform = Transform2D(6.96, 0, 0, 6.96, 489.635, -92.02)
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(20.6419, 138.125)
+position = Vector2(145.886, 136.353)
 motion_scale = Vector2(0.1, 0.1)
 motion_mirroring = Vector2(384, 0)
 
@@ -169,7 +169,7 @@ texture_filter = 1
 texture = ExtResource("5_1gi2j")
 
 [node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(20.6419, 138.125)
+position = Vector2(145.886, 136.353)
 motion_scale = Vector2(0.2, 0.1)
 motion_mirroring = Vector2(384, 0)
 
@@ -178,7 +178,7 @@ texture_filter = 1
 texture = ExtResource("6_iodtq")
 
 [node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(20.6419, 138.125)
+position = Vector2(145.886, 136.353)
 motion_scale = Vector2(0.3, 0.1)
 motion_mirroring = Vector2(384, 0)
 
@@ -187,7 +187,7 @@ texture_filter = 1
 texture = ExtResource("7_h5kys")
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2(20.6419, 138.125)
+position = Vector2(145.886, 136.353)
 motion_scale = Vector2(0.4, 0.1)
 motion_mirroring = Vector2(384, 0)
 
@@ -208,8 +208,8 @@ layer_0/tile_data = PackedInt32Array(655354, 65537, 0, 655355, 65537, 0, 655356,
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("3_frgl1")]
 position = Vector2(-200, 468)
+move_speed = 100.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(319, 1292)
-zoom = Vector2(0.7, 0.7)
 position_smoothing_enabled = true

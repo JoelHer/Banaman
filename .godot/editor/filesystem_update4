@@ -2,3 +2,4 @@ res://Scenes/Main.tscn
 res://Prefabs/Weapon.gd
 res://Prefabs/Enemies/Müsli.tscn
 res://Prefabs/Player.tscn
+res://Scenes/Main.gd
