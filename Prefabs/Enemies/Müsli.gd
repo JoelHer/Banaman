@@ -61,3 +61,16 @@ func _on_e_animation_player_animation_finished(anim_name):
 		ap.play("RESET")
 	if anim_name == "take_damage":
 		allowed_move = true
+
+	if anim_name == "deal_damage":
+		pass
+		allowed_move = true
+
+
+func _on_damage_area_body_entered(_body):
+	if _body.has_method("_take_damage"):
+		allowed_move = false
+		ap.play("deal_damage")
+		pass
+		_body._take_damage(damage)
+		

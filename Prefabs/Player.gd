@@ -40,7 +40,7 @@ func movement():
 	move_and_slide()
 	update_animation(inputAxis)
 
-func take_damage(_damage):
+func _take_damage(_damage):
 	current_health -= 1
 
 func update_animation(horizontal_direction):
