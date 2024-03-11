@@ -150,8 +150,8 @@ script = ExtResource("1_ocg4v")
 
 [node name="Sky" type="Sprite2D" parent="."]
 visible = false
-position = Vector2(-253, 587)
-scale = Vector2(121.571, 121.571)
+position = Vector2(7268, 2097)
+scale = Vector2(53.7699, 50.7238)
 texture = ExtResource("4_8uo74")
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
