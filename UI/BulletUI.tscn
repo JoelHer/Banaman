@@ -1,0 +1,58 @@
+[gd_scene load_steps=11 format=3 uid="uid://dxugksoxcqj2b"]
+
+[ext_resource type="Script" path="res://UI/BulletUI.gd" id="1_cam7o"]
+[ext_resource type="Texture2D" uid="uid://dskwh6pf25ixp" path="res://UI/BulletUI.png" id="2_8br48"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3mobr"]
+atlas = ExtResource("2_8br48")
+region = Rect2(0, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sjumr"]
+atlas = ExtResource("2_8br48")
+region = Rect2(0, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_evtrl"]
+atlas = ExtResource("2_8br48")
+region = Rect2(32, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fk3ig"]
+atlas = ExtResource("2_8br48")
+region = Rect2(64, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cv0i4"]
+atlas = ExtResource("2_8br48")
+region = Rect2(96, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_24erp"]
+atlas = ExtResource("2_8br48")
+region = Rect2(128, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gwqv4"]
+atlas = ExtResource("2_8br48")
+region = Rect2(160, 0, 32, 78)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7ombv"]
+atlas = ExtResource("2_8br48")
+region = Rect2(192, 0, 32, 78)
+
+[node name="AmmoUI" type="TextureRect"]
+texture_filter = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -78.0
+offset_right = 20.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = SubResource("AtlasTexture_3mobr")
+script = ExtResource("1_cam7o")
+bullet1 = SubResource("AtlasTexture_sjumr")
+bullet2 = SubResource("AtlasTexture_evtrl")
+bullet3 = SubResource("AtlasTexture_fk3ig")
+bullet4 = SubResource("AtlasTexture_cv0i4")
+bullet5 = SubResource("AtlasTexture_24erp")
+bullet6 = SubResource("AtlasTexture_gwqv4")
+bullet7 = SubResource("AtlasTexture_7ombv")

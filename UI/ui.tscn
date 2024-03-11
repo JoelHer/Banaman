@@ -1,7 +1,8 @@
-[gd_scene load_steps=17 format=3 uid="uid://c6qsq33hryo46"]
+[gd_scene load_steps=18 format=3 uid="uid://c6qsq33hryo46"]
 
 [ext_resource type="Texture2D" uid="uid://diab8uyi2wqch" path="res://Textures/HealthBarCleanSlate.png" id="1_j5q1y"]
 [ext_resource type="Script" path="res://UI/HealthBar.gd" id="2_x1728"]
+[ext_resource type="PackedScene" uid="uid://dxugksoxcqj2b" path="res://UI/BulletUI.tscn" id="3_j62nd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_avkfk"]
 atlas = ExtResource("1_j5q1y")
@@ -88,3 +89,14 @@ health10 = SubResource("AtlasTexture_jtfpv")
 health11 = SubResource("AtlasTexture_xn4g0")
 health12 = SubResource("AtlasTexture_0naf2")
 health13 = SubResource("AtlasTexture_782xk")
+
+[node name="AmmoUI" parent="." instance=ExtResource("3_j62nd")]
+anchors_preset = 8
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_left = 130.0
+offset_top = 313.0
+offset_right = 268.0
+offset_bottom = 582.0
+grow_vertical = 2
+rotation = 1.57079

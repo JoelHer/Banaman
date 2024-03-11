@@ -1,4 +1,6 @@
 res://Scenes/Main.tscn
 res://Prefabs/Weapon.gd
-res://Prefabs/Enemies/Müsli.tscn
-res://Prefabs/Player.tscn
+res://Prefabs/Player.gd
+res://UI/BulletUI.gd
+res://UI/BulletUI.tscn
+res://UI/ui.tscn

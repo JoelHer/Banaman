@@ -1,6 +1,6 @@
+TextureRect
 Area2D
 AnimationPlayer
-TextureRect
 NinePatchRect
 CanvasLayer
 Panel
