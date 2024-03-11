@@ -43,7 +43,7 @@ func take_damage(_damage):
 		else:
 			ap.play("take_damage")
 	
-
+#
 func flip_player():
 	if velocity.x < 0: 
 		sprite.flip_h = true
