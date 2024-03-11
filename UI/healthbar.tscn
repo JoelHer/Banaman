@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://iahk8y3mbv1k"]
+
+[ext_resource type="Texture2D" uid="uid://diab8uyi2wqch" path="res://Textures/HealthBarCleanSlate.png" id="1_g0pjv"]
+[ext_resource type="Theme" uid="uid://hc3hdbt7yoc7" path="res://UI/default_theme.tres" id="1_tnnte"]
+
+[node name="NinePatchRect" type="NinePatchRect"]
+texture_filter = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -218.5
+offset_top = -136.0
+offset_right = 218.5
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("1_tnnte")
+texture = ExtResource("1_g0pjv")
+region_rect = Rect2(12, 31, 104, 32)

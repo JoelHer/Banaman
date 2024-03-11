@@ -19,9 +19,11 @@ var is_grounded : bool = false
 @onready var particle_trails = $ParticleTrails
 @onready var death_particles = $DeathParticles
 
+@export var max_health : int = 13
+var current_health = int(max_health/2)+1
+
 func _process(_delta):
-	
-	
+	get_node("/root/Ui/HealthBar").setTexture(current_health)
 	movement()
 	flip_player()
 
@@ -37,6 +39,9 @@ func movement():
 	velocity = Vector2(inputAxis * move_speed, velocity.y)
 	move_and_slide()
 	update_animation(inputAxis)
+
+func take_damage(_damage):
+	current_health -= 1
 
 func update_animation(horizontal_direction):
 	if is_on_floor():
@@ -62,14 +67,11 @@ func jump():
 	jump_tween()
 	velocity.y = -jump_force
 
-
 func flip_player():
 	if velocity.x < 0: 
 		sprite.flip_h = true
 	elif velocity.x > 0:
 		sprite.flip_h = false
-
-
 
 func jump_tween():
 	var tween = create_tween()

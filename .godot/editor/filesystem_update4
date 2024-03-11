@@ -2,3 +2,9 @@ res://Scenes/Main.tscn
 res://Prefabs/Weapon.gd
 res://Prefabs/Enemies/Müsli.tscn
 res://Prefabs/Player.tscn
+res://UI/interface.tscn
+res://UI/healthbar.tscn
+res://UI/ui.tscn
+res://Scenes/Main.gd
+res://UI/HealthBar.gd
+res://Prefabs/Player.gd
