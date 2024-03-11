@@ -19,9 +19,9 @@ var is_grounded : bool = false
 @onready var particle_trails = $ParticleTrails
 @onready var death_particles = $DeathParticles
 
+@export var max_health : int = 13
+
 func _process(_delta):
-	
-	
 	movement()
 	flip_player()
 

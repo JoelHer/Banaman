@@ -1,0 +1,87 @@
+[gd_scene load_steps=16 format=3 uid="uid://c6qsq33hryo46"]
+
+[ext_resource type="Texture2D" uid="uid://diab8uyi2wqch" path="res://Textures/HealthBarCleanSlate.png" id="1_j5q1y"]
+[ext_resource type="Script" path="res://UI/HealthBar.gd" id="2_x1728"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2acwd"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(1548, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vx1o5"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(1420, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w3mwt"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(1164, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fomh3"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(1036, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_80io4"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(1292, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gleyd"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(908, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q7war"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(12, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kkvl7"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(140, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_su1b0"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(268, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_moiwg"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(396, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hpoop"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(524, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yq734"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(652, 31, 104, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_83dyw"]
+atlas = ExtResource("1_j5q1y")
+region = Rect2(780, 31, 104, 32)
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="HealthBar" type="NinePatchRect" parent="."]
+texture_filter = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -235.5
+offset_top = -143.0
+offset_right = 235.5
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("1_j5q1y")
+region_rect = Rect2(12, 31, 104, 32)
+script = ExtResource("2_x1728")
+health1 = SubResource("AtlasTexture_2acwd")
+health2 = SubResource("AtlasTexture_vx1o5")
+health3 = SubResource("AtlasTexture_w3mwt")
+health4 = SubResource("AtlasTexture_fomh3")
+health5 = SubResource("AtlasTexture_80io4")
+health6 = SubResource("AtlasTexture_gleyd")
+health7 = SubResource("AtlasTexture_q7war")
+health8 = SubResource("AtlasTexture_kkvl7")
+health9 = SubResource("AtlasTexture_su1b0")
+health10 = SubResource("AtlasTexture_moiwg")
+health11 = SubResource("AtlasTexture_hpoop")
+health12 = SubResource("AtlasTexture_yq734")
+health13 = SubResource("AtlasTexture_83dyw")

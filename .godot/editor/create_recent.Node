@@ -1,3 +1,9 @@
+AnimationPlayer
+TextureRect
+NinePatchRect
+CanvasLayer
+Panel
+Control
 Sprite2D
 ParallaxLayer
 ParallaxBackground
@@ -5,9 +11,4 @@ Camera2D
 TileMap
 CollisionShape2D
 Area2D
-AnimationPlayer
 CharacterBody2D
-Timer
-StaticBody2D
-Marker2D
-AnimatedSprite2D
