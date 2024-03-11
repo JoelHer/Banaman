@@ -59,11 +59,9 @@ func update_animation(horizontal_direction):
 		else:
 			ap.play("walk")
 	elif dead:
+		ap.speed_scale = 0.5
 		ap.play("death")
-		await get_tree().create_timer(2).timeout
-		ap.stop()
-		get_tree().quit()
-
+		
 func handle_jumping():
 	if Input.is_action_just_pressed("Jump"):
 		if is_on_floor() and !double_jump:
@@ -90,3 +88,8 @@ func jump_tween():
 func _on_collision_body_entered(_body):
 	if _body.is_in_group("Traps"):
 		death_particles.emitting = true
+
+
+func _on_animation_player_animation_finished(anim_name):
+	if anim_name == "death":
+		get_tree().quit()
