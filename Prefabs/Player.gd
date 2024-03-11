@@ -19,6 +19,8 @@ var is_grounded : bool = false
 @onready var particle_trails = $ParticleTrails
 @onready var death_particles = $DeathParticles
 
+var dead = false
+
 @export var max_health : int = 13
 var current_health = int(max_health/2)+1
 
@@ -41,19 +43,26 @@ func movement():
 	update_animation(inputAxis)
 
 func _take_damage(_damage):
-	current_health -= 1
+	current_health -= _damage
+	if current_health <= 0:
+		dead = true
 
 func update_animation(horizontal_direction):
-	if is_on_floor():
+	if is_on_floor() and !dead:
 		if horizontal_direction == 0:
 			ap.play("idle")
 		else:
 			ap.play("walk")
-	else:
+	elif !dead:
 		if horizontal_direction == 0:
 			ap.play("idle")
 		else:
 			ap.play("walk")
+	elif dead:
+		ap.play("death")
+		await get_tree().create_timer(2).timeout
+		ap.stop()
+		get_tree().quit()
 
 func handle_jumping():
 	if Input.is_action_just_pressed("Jump"):
