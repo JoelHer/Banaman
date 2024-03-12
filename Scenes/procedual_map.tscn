@@ -4,8 +4,8 @@
 [ext_resource type="TileSet" uid="uid://c08m8bipn0npl" path="res://Textures/MainTileset.tres" id="1_f7kv7"]
 
 [sub_resource type="FastNoiseLite" id="FastNoiseLite_m0brg"]
-seed = 69
-frequency = 0.0418
+noise_type = 4
+frequency = 0.0313
 
 [node name="ProcedualMap" type="Node2D"]
 script = ExtResource("1_0yr2t")
