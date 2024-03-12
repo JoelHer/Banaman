@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cjmu8wrni3gb8"]
+
+[ext_resource type="Script" path="res://Scenes/procedual_map.gd" id="1_0yr2t"]
+[ext_resource type="TileSet" uid="uid://c08m8bipn0npl" path="res://Textures/MainTileset.tres" id="1_f7kv7"]
+
+[node name="ProcedualMap" type="Node2D"]
+script = ExtResource("1_0yr2t")
+
+[node name="tilemap" type="TileMap" parent="."]
+texture_filter = 1
+position = Vector2(934, 498)
+scale = Vector2(5.8, 5.8)
+tile_set = ExtResource("1_f7kv7")
+format = 2
