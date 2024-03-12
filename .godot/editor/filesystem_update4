@@ -1,6 +1,7 @@
 res://Scenes/Main.tscn
 res://Prefabs/Weapon.gd
-res://Prefabs/Player.gd
-res://UI/BulletUI.gd
-res://UI/BulletUI.tscn
-res://UI/ui.tscn
+res://UI/UI_tscn/menu.tscn
+res://UI/UI_tscn/ui.tscn
+res://UI/UI_tscn/options_menu.tscn
+res://UI/UI_scripts/Menu.gd
+res://Scenes/Main.gd

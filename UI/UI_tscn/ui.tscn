@@ -61,6 +61,7 @@ atlas = ExtResource("1_j5q1y")
 region = Rect2(780, 31, 104, 32)
 
 [node name="UI" type="CanvasLayer"]
+visible = false
 
 [node name="HealthBar" type="TextureRect" parent="."]
 texture_filter = 1
