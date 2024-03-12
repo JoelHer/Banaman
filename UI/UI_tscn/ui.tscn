@@ -1,8 +1,8 @@
 [gd_scene load_steps=18 format=3 uid="uid://c6qsq33hryo46"]
 
 [ext_resource type="Texture2D" uid="uid://diab8uyi2wqch" path="res://Textures/HealthBarCleanSlate.png" id="1_j5q1y"]
-[ext_resource type="Script" path="res://UI/HealthBar.gd" id="2_x1728"]
-[ext_resource type="PackedScene" uid="uid://dxugksoxcqj2b" path="res://UI/BulletUI.tscn" id="3_j62nd"]
+[ext_resource type="Script" path="res://UI/UI_scripts/HealthBar.gd" id="2_x1728"]
+[ext_resource type="PackedScene" uid="uid://dxugksoxcqj2b" path="res://UI/UI_tscn/BulletUI.tscn" id="3_j62nd"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_avkfk"]
 atlas = ExtResource("1_j5q1y")

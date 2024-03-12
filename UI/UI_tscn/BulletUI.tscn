@@ -1,7 +1,7 @@
 [gd_scene load_steps=11 format=3 uid="uid://dxugksoxcqj2b"]
 
-[ext_resource type="Script" path="res://UI/BulletUI.gd" id="1_cam7o"]
-[ext_resource type="Texture2D" uid="uid://dskwh6pf25ixp" path="res://UI/BulletUI.png" id="2_8br48"]
+[ext_resource type="Script" path="res://UI/UI_scripts/BulletUI.gd" id="1_cam7o"]
+[ext_resource type="Texture2D" uid="uid://dskwh6pf25ixp" path="res://UI/UI_png/BulletUI.png" id="2_8br48"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3mobr"]
 atlas = ExtResource("2_8br48")

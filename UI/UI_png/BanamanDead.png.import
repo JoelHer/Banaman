@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2r6bxmfwy4nb"
-path="res://.godot/imported/BanamanDead.png-5d83c817da39f63559c8b2cd0cfd6dac.ctex"
+path="res://.godot/imported/BanamanDead.png-13bd9b277df11efd4a71746be355ff33.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/BanamanDead.png"
-dest_files=["res://.godot/imported/BanamanDead.png-5d83c817da39f63559c8b2cd0cfd6dac.ctex"]
+source_file="res://UI/UI_png/BanamanDead.png"
+dest_files=["res://.godot/imported/BanamanDead.png-13bd9b277df11efd4a71746be355ff33.ctex"]
 
 [params]
 

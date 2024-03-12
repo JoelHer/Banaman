@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dskwh6pf25ixp"
-path="res://.godot/imported/BulletUI.png-cf8bbae89405eeb9625086831a3fccea.ctex"
+path="res://.godot/imported/BulletUI.png-47bfe5085c315a7dd39768cdee6a5f83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://UI/BulletUI.png"
-dest_files=["res://.godot/imported/BulletUI.png-cf8bbae89405eeb9625086831a3fccea.ctex"]
+source_file="res://UI/UI_png/BulletUI.png"
+dest_files=["res://.godot/imported/BulletUI.png-47bfe5085c315a7dd39768cdee6a5f83.ctex"]
 
 [params]
 

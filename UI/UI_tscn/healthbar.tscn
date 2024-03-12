@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://iahk8y3mbv1k"]
 
 [ext_resource type="Texture2D" uid="uid://diab8uyi2wqch" path="res://Textures/HealthBarCleanSlate.png" id="1_g0pjv"]
-[ext_resource type="Theme" uid="uid://hc3hdbt7yoc7" path="res://UI/default_theme.tres" id="1_tnnte"]
+[ext_resource type="Theme" uid="uid://hc3hdbt7yoc7" path="res://UI/UI_themes/default_theme.tres" id="1_tnnte"]
 
 [node name="NinePatchRect" type="NinePatchRect"]
 texture_filter = 1
